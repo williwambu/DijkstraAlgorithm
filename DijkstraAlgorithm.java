@@ -19,6 +19,10 @@ public class DijkstraAlgorithm {
 		this.edges = new ArrayList(graph.getEdges());
 	}
 	
+	/**
+	 * main method to execute the algo.
+	 * @param source
+	 */
 	public void execute(Vertex source){
 		settledNodes = new HashSet<Vertex>();
 		unSettledNodes = new HashSet<Vertex>();
